@@ -8,13 +8,15 @@
 	<body>
 		<div class="container">
 			<header class="glava">
-				<div class="gumb">SVG</div>
-				<div class="gumb">BEZIER</div>
-				<div class="gumb">PNG</div>
+				<a href="#svg"><div class="gumbb">SVG</div></a>
+				<a href="#bezier"><div class="gumb">BEZIER</div></a>
+				<a href="#png"><div class="gumb">PNG</div></a>
 			</header>
 			<div class="telo">
-				<div class="naslov">SVG</div>
-				<div>
+				<img src="slike/bmw_poster.jpg" class="ts"></img>
+				<div class="naslov" id="svg"></div>
+				<div class="naslov" id="svg">SVG</div>
+				<div class="odmik">
 					<svg height="500" width="500">
 					  <circle cx="250" cy="250" r="200" stroke="gray" stroke-width="10" fill="none"/>
 					  <circle cx="250" cy="250" r="190" stroke="black" stroke-width="10" fill="black"/>
@@ -36,8 +38,10 @@
 					  <text x="225.5" y="115" font-size="60" fill="white" font-weight="bold" transform="rotate(-45 250 250)" font-family="arial">B</text>
 					</svg>
 				</div>
-				<div class="naslov">BEZIER</div>
-				<div>
+				<img src="slike/bmw_poster2.webp" class="ts"></img>
+				<div class="naslov" id="bezier"></div>
+				<div class="naslov" id="bezier">BEZIER</div>
+				<div class="odmik">
 					<canvas id="myCanvas" width="500" height="500"></canvas>
 					<script>
 						const canvas = document.getElementById("myCanvas");
@@ -122,8 +126,10 @@
 
 					</script>
 				</div>
-				<div class="naslov">PNG</div>
-				<div>
+				<img src="slike/bmw_poster3.webp" class="ts"></img>
+				<div class="naslov" id="png"></div>
+				<div class="naslov" id="png">PNG</div>
+				<div class="odmik">
 					<img src="slike/BMW_logo.png"></img>
 				</div>
 			</div>
